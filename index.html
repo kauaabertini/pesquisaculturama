@@ -7,6 +7,47 @@
     <title>Formulario</title>
 </head>
 <body>
-    
+<header>
+    <h1>Pesquisa Online</h1>
+</header>
+
+<section>
+    <form action="#" method="get">
+        <fieldset>
+
+            <!--- DADOS PESSOAIS --->
+
+        <legend> Dados Pessoais</legend>
+
+        <label for="UserName">Nome:</label>
+        <input type="text" name="UseName" required>
+            <br>
+
+        <label for="UserAge">Idade</label>
+        <input type="number" name="UserAge" min="12" max="100" required>
+            <br>
+
+        <label for="birth-date">Data de Nascimento</label>
+        <input type="date" name="birth-date">
+            <br>
+
+        <label for="user-email">E-mail</label>
+        <input type="email" name="user-email">
+            <br>
+
+        <label for="UserNumberPhone">Telefone</label>
+        <input type="tel" name="UserNumberPhone" pattern="(0-9){11}" placeholder="(11-99999-9999)"> 
+            <br>
+
+        <label for="UserImage"></label>
+        <input type="file" name="#" name="UserImage">
+        </fieldset>
+
+        
+        <button type="submit">Enviar</button>
+        
+    </form>
+
+</section>
 </body>
 </html>

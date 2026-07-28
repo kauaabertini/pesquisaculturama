@@ -127,7 +127,44 @@
                 <option value="sertajeno"></option>
             </datalist>
         
+
+            <br>
+
+            <label for="favoritecolor">Cor favorita</label>
+            <input type="color" name="UserFavoritecolor" id="favoritecolor">
+
         </fieldset>
+            
+        <fieldset>
+                <legend>Opinião</legend>
+
+                 <p> O que você acha da qualidade de nossos serviços?</p>
+                <input id="great" type="radio" name="UserOpinion" value="otima">
+                <label for="great">Ótima</label>
+
+                <br>
+
+                <input id="good" type="radio" name="UserOpinion" value="boa">
+                <label for="good">Boa</label>
+
+                <br>
+
+                <input id="regular" type="radio" name="UserOpinion" value="regular">
+                <label for="regular">Regular</label>
+
+                <br>
+
+                <input id="bad" type="radio" name="UserOpinion" value="ruim">
+                <label for="bad">Ruim</label>
+
+                <br>
+
+                <label for="comment">Escreva sua opinião:</label>
+                <textarea id="comment" name="UserComment" placeholder="Digite Aqui sua opinião..."></textarea>
+
+        </fieldset>
+
+
         <button type="submit">Enviar</button>
         
     </form>
